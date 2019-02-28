@@ -12,6 +12,8 @@
 		ACFE03E922270515008C79D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFE03E722270515008C79D7 /* Main.storyboard */; };
 		ACFE03EB22270519008C79D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFE03EA22270519008C79D7 /* Assets.xcassets */; };
 		ACFE03EE22270519008C79D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFE03EC22270519008C79D7 /* LaunchScreen.storyboard */; };
+		ACFE03F622270746008C79D7 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE03F522270746008C79D7 /* TimeViewController.swift */; };
+		ACFE03F822270C83008C79D7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFE03F722270C83008C79D7 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ACFE03EA22270519008C79D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFE03ED22270519008C79D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACFE03EF22270519008C79D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFE03F522270746008C79D7 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		ACFE03F722270C83008C79D7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				ACFE03E322270515008C79D7 /* AppDelegate.swift */,
 				ACFE03E522270515008C79D7 /* ViewController.swift */,
 				ACFE03E722270515008C79D7 /* Main.storyboard */,
+				ACFE03F522270746008C79D7 /* TimeViewController.swift */,
+				ACFE03F722270C83008C79D7 /* Helper.swift */,
 				ACFE03EA22270519008C79D7 /* Assets.xcassets */,
 				ACFE03EC22270519008C79D7 /* LaunchScreen.storyboard */,
 				ACFE03EF22270519008C79D7 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFE03E622270515008C79D7 /* ViewController.swift in Sources */,
+				ACFE03F622270746008C79D7 /* TimeViewController.swift in Sources */,
 				ACFE03E422270515008C79D7 /* AppDelegate.swift in Sources */,
+				ACFE03F822270C83008C79D7 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
